@@ -16,9 +16,14 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        
     }
 }
 
 rootProject.name = "Toaster"
 include(":app")
 include(":Toast_ho_ja")
+
+fun includeGroupByRegex(s: String) {
+
+}
